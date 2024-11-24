@@ -5,19 +5,19 @@
 Follow these steps to set up and run the application:
 
 1. Clone the Repository:
-   Download the project by cloning the repository using the following command:
-   "git clone https://github.com/kuldeepjoshi27/Project-Management-Dashboard.git"
+   Download the project by cloning the repository using the following command:  
+    "git clone https://github.com/kuldeepjoshi27/Project-Management-Dashboard.git"
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
    cd Project-Management-Dashboard
 
-3. Install Dependencies:
+4. Install Dependencies:
    Use the command "npm install" to install all the required dependencies.
 
-4. Start the Development Server:
+5. Start the Development Server:
    Run the project locally by using the command "npm start".
 
-5. Access the Application:
+6. Access the Application:
    Open your browser and go to "http://localhost:3000" to view and use the application.
 
 #Video Link:-

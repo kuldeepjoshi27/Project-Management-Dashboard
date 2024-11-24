@@ -23,8 +23,8 @@ Follow these steps to set up and run the application:
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Features](#features)
-  - [Routes](#routes)
+- [Features](#features)
+-  [Routes](#routes)
 - [Built With](#built-with)
 - [Author](#author)
 

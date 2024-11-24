@@ -28,7 +28,7 @@ Follow these steps to set up and run the application:
 - [Built With](#built-with)
 - [Author](#author)
 
-# overview:-
+### Overview:-
 
 This project is a fully functional project management web application created by **Kuldeep Joshi**. It provides an intuitive interface for managing projects, visualizing progress through charts, and customizing application settings. The application is built with modern web technologies and offers robust features to streamline project management.
 This web application allows users to manage multiple projects effectively, organize project sections, and visualize data through charts. It offers an easy-to-use interface and ensures optimal responsiveness for different screen sizes.

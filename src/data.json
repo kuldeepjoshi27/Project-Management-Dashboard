@@ -1,0 +1,601 @@
+{
+  "boards": [
+    {
+      "name": "E-Commerce Web App",
+      "isActive" : false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+            {
+              "title": "Build UI for onboarding flow",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Sign up page",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Sign in page",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Welcome page",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Build UI for search",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Search page",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Build settings UI",
+              "description": "",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Account page",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Billing page",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "QA and test all major user journeys",
+              "description": "Once we feel version one is ready, we need to rigorously test it both internally and externally to identify any major gaps.",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Internal testing",
+                  "isCompleted": false
+                },
+                {
+                  "title": "External testing",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "In Progress",
+          "tasks": [
+            {
+              "title": "Design settings and search pages",
+              "description": "",
+              "status": "In Progress",
+              "subtasks": [
+                {
+                  "title": "Settings - Account page",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Settings - Billing page",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Search page",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Add account management endpoints",
+              "description": "",
+              "status": "In Progress",
+              "subtasks": [
+                {
+                  "title": "Upgrade plan",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Cancel plan",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Update payment method",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Design onboarding flow",
+              "description": "",
+              "status": "In Progress",
+              "subtasks": [
+                {
+                  "title": "Sign up page",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Sign in page",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Welcome page",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Add search enpoints",
+              "description": "",
+              "status": "In Progress",
+              "subtasks": [
+                {
+                  "title": "Add search endpoint",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Define search filters",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Add authentication endpoints",
+              "description": "",
+              "status": "In Progress",
+              "subtasks": [
+                {
+                  "title": "Define user model",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Add auth endpoints",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Research pricing points of various competitors and trial different business models",
+              "description": "We know what we're planning to build for version one. Now we need to finalise the first pricing model we'll use. Keep iterating the subtasks until we have a coherent proposition.",
+              "status": "In Progress",
+              "subtasks": [
+                {
+                  "title": "Research competitor pricing and business models",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Outline a business model that works for our solution",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Talk to potential customers about our proposed solution and ask for fair price expectancy",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Done",
+          "tasks": [
+            {
+              "title": "Conduct 5 wireframe tests",
+              "description": "Ensure the layout continues to make sense and we have strong buy-in from potential users.",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Complete 5 wireframe prototype tests",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Create wireframe prototype",
+              "description": "Create a greyscale clickable wireframe prototype to test our asssumptions so far.",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Create clickable wireframe prototype in Balsamiq",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Review results of usability tests and iterate",
+              "description": "Keep iterating through the subtasks until we're clear on the core concepts for the app.",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Meet to review notes from previous tests and plan changes",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Make changes to paper prototypes",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Conduct 5 usability tests",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Create paper prototypes and conduct 10 usability tests with potential customers",
+              "description": "",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Create paper prototypes for version one",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Complete 10 usability tests",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Market discovery",
+              "description": "We need to define and refine our core product. Interviews will help us learn common pain points and help us define the strongest MVP.",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Interview 10 prospective customers",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Competitor analysis",
+              "description": "",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Find direct and indirect competitors",
+                  "isCompleted": true
+                },
+                {
+                  "title": "SWOT analysis for each competitor",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Research the market",
+              "description": "We need to get a solid overview of the market to ensure we have up-to-date estimates of market size and demand.",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Write up research analysis",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Calculate TAM",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Payment Gateway App",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+            {
+              "title": "Design user authentication flow",
+              "description": "Plan and draft the authentication process for users.",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Design login and signup UI",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Define backend authentication logic",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Set up database for user data",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Integrate social login options",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Create payment gateway API",
+              "description": "Develop the core API for handling payments.",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Set up API architecture",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Implement card validation",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Handle payment transactions",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Add support for multiple currencies",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Plan marketing strategy",
+              "description": "Develop a strategy to promote the payment gateway app.",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Research competitors",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Identify target audience",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Prepare promotional materials",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Launch initial marketing campaign",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "In Progress",
+          "tasks": [
+            {
+              "title": "Integrate payment providers",
+              "description": "Connect with third-party payment services like Stripe or PayPal.",
+              "status": "In Progress",
+              "subtasks": [
+                {
+                  "title": "Set up developer accounts",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Test API integration",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Ensure compliance with regulations",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Document integration process",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Develop user dashboard",
+              "description": "Create a dashboard for users to view transaction history and manage payments.",
+              "status": "In Progress",
+              "subtasks": [
+                {
+                  "title": "Design UI/UX for the dashboard",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Set up database schema",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Implement dashboard functionality",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Perform initial testing",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Done",
+          "tasks": [
+            {
+              "title": "Set up project repository",
+              "description": "Initialize the project repository with a standard folder structure.",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Create Git repository",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Set up CI/CD pipeline",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Add project documentation",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Create project roadmap",
+              "description": "Draft a roadmap for the project's milestones and deliverables.",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Define project objectives",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Outline key milestones",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Assign team roles",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Review roadmap with stakeholders",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Online Learning Platform",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "Todo",
+          "tasks": [
+            {
+              "title": "Research Market Trends",
+              "description": "Analyze current trends in online learning to understand the market needs.",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Gather data on popular platforms",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Identify trending course topics",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Prepare a summary report",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Design Platform Architecture",
+              "description": "Plan the technical infrastructure and architecture for the platform.",
+              "status": "Todo",
+              "subtasks": [
+                {
+                  "title": "Draft initial architecture diagram",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Consult with tech team",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Finalize architecture details",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "In Progress",
+          "tasks": [
+            {
+              "title": "Build Authentication System",
+              "description": "Develop user sign-up and login features for the platform.",
+              "status": "In Progress",
+              "subtasks": [
+                {
+                  "title": "Implement user registration API",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Develop login functionality",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Add password recovery feature",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Create Course Categories",
+              "description": "Develop a categorization system for different types of courses.",
+              "status": "In Progress",
+              "subtasks": [
+                {
+                  "title": "Define primary categories",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Develop category selection UI",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Integrate category filtering",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Done",
+          "tasks": [
+            {
+              "title": "Set Up Development Environment",
+              "description": "Prepare the necessary tools and environment for development.",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Install Node.js and dependencies",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Set up version control system",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Configure project structure",
+                  "isCompleted": true
+                }
+              ]
+            },
+            {
+              "title": "Draft Project Plan",
+              "description": "Outline the goals, timelines, and milestones for the project.",
+              "status": "Done",
+              "subtasks": [
+                {
+                  "title": "Define project scope",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Set milestones and deadlines",
+                  "isCompleted": true
+                },
+                {
+                  "title": "Share plan with stakeholders",
+                  "isCompleted": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }    
+  ]
+}

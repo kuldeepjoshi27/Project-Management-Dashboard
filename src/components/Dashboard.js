@@ -60,9 +60,22 @@ function Dashboard() {
           {boards.map((board, index) => (
             <div
               key={index}
-              onClick={() => handleBoardClick(index)} // Open tasks on card click
               className="bg-white dark:bg-[#2b2c37] rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-200 relative cursor-pointer group"
             >
+              {/* Board Name Click */}
+              <div onClick={() => handleBoardClick(index)}>
+                <div className="flex items-center space-x-3 mb-4">
+                  <img
+                    src={boardIcon}
+                    className="h-6 w-6 filter-white"
+                    alt="Board icon"
+                  />
+                  <h2 className="text-xl font-bold dark:text-white group-hover:text-[#635fc7] transition-colors duration-200">
+                    {board.name}
+                  </h2>
+                </div>
+              </div>
+
               {/* Ellipsis Menu */}
               <div className="absolute top-4 right-4">
                 <img
@@ -97,17 +110,6 @@ function Dashboard() {
               </div>
 
               {/* Board Details */}
-              <div className="flex items-center space-x-3 mb-4">
-                <img
-                  src={boardIcon}
-                  className="h-6 w-6 filter-white"
-                  alt="Board icon"
-                />
-                <h2 className="text-xl font-bold dark:text-white group-hover:text-[#635fc7] transition-colors duration-200">
-                  {board.name}
-                </h2>
-              </div>
-
               <div className="space-y-2">
                 <p className="text-gray-500 dark:text-gray-400">
                   {board.columns.reduce(

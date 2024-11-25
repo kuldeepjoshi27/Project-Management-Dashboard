@@ -9,7 +9,7 @@ Follow these steps to set up and run the application:
     "git clone https://github.com/kuldeepjoshi27/Project-Management-Dashboard.git"
 
 3. Navigate to the project directory:  
-   cd Project-Management-Dashboard
+   cd Project-Management-Dashboard 
 
 4. Install Dependencies:
    Use the command "npm install" to install all the required dependencies.
